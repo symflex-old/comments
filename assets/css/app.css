@@ -1,0 +1,31 @@
+ul {
+    list-style: none;
+}
+ul li {
+    margin: 10px 0 0 0;
+}
+
+ul.comments {
+    padding: 0;
+}
+
+.comment {
+    padding: 10px 10px;
+    border: 1px solid #ddd;
+}
+
+.reply:hover {
+    cursor: pointer;
+}
+
+.container {
+    margin:25px auto;
+}
+
+.group-button div {
+    margin-right: 10px;
+    display: inline-block;
+}
+.text {
+    padding: 10px 0;
+}
