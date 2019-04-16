@@ -49,8 +49,7 @@ class Db extends PDO
             }
         }
 
-        $sql = 'INSERT INTO comments (parent_id, post_id, text)
-                VALUES(:parent_id, :post_id, :text)';
+        $sql = 'INSERT INTO comments (parent_id, post_id, text) VALUES (:parent_id, :post_id, :text)';
 
         $newCommentStatement = $this->prepare($sql);
         $newCommentStatement->bindValue(':parent_id', $parentCommentId, PDO::PARAM_INT);

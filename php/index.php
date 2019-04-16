@@ -27,4 +27,4 @@ try {
     ];
 }
 
-echo json_encode($result,true);
+echo json_encode($result, true);
